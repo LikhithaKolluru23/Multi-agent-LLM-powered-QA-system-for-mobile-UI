@@ -1,0 +1,45 @@
+{
+  "system_info": {
+    "environment": "MockAndroidEnv with Video Analysis",
+    "videos_tested": 3,
+    "timestamp": 1753817749.737341
+  },
+  "scores": {
+    "accuracy": 0.286965811965812,
+    "robustness": 0.5527777777777778,
+    "generalization": 0.4224786324786325,
+    "overall": 0.4207407407407408,
+    "success_rate": 0.0
+  },
+  "analysis": {
+    "task_performance": {
+      "Other": {
+        "count": 2,
+        "avg_accuracy": 0.23044871794871796,
+        "avg_visual_similarity": 0.0,
+        "success_rate": 0.0
+      },
+      "Location": {
+        "count": 1,
+        "avg_accuracy": 0.4,
+        "avg_visual_similarity": 0.5,
+        "success_rate": 0.0
+      }
+    },
+    "avg_agent_steps": 5.0,
+    "avg_real_steps": 9.666666666666666,
+    "avg_visual_similarity": 0.16666666666666666,
+    "avg_navigation_similarity": 0.611111111111111
+  },
+  "summary": {
+    "total_videos": 3,
+    "overall_performance": 0.4207407407407408,
+    "success_rate": 0.0,
+    "methodology": "Real Android in the Wild Video Evaluation",
+    "real_tasks_evaluated": [
+      "turn off javascript in the chrome app",
+      "turn off data saver in the chrome app",
+      "turn off improve location accuracy"
+    ]
+  }
+}
